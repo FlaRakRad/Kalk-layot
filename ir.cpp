@@ -5,14 +5,14 @@ xkb_symbols "basic" {
 
     // Top row
     key <AD01> { [ y, Y ] };        // Q -> Y
-    key <AD02> { [ w, W ] };        // W -> W
+    key <AD02> { [ NoSymbol ] };     // W -> W
     key <AD03> { [ u, U ] };        // E -> U
     key <AD04> { [ k, K ] };        // R -> K
     key <AD05> { [ e, E ] };        // T -> E
     key <AD06> { [ n, N ] };        // Y -> N
     key <AD07> { [ g, G ] };        // U -> G
     key <AD08> { [ j, J ] };        // I -> empty
-    key <AD09> { [ NoSymbol ] };    // O -> empty
+    key <AD09> { [ w, W ] };        // O -> empty
     key <AD10> { [ z, Z ] };        // P -> Z
     key <AD11> { [ NoSymbol ] };    // [
     key <AD12> { [ NoSymbol ] };    // ]
@@ -30,16 +30,16 @@ xkb_symbols "basic" {
     key <AC10> { [ NoSymbol ] };    // ;
     key <AC11> { [ NoSymbol ] };    // '
 
-key <AB01> { [ less, slash ] };       // Z -> < /
-key <AB02> { [ greater, question ] }; // X -> > ?
-key <AB03> { [ c, C ] };              // C
-key <AB04> { [ m, M ] };              // V -> M
-key <AB05> { [ i, I ] };              // B -> I
-key <AB06> { [ t, T ] };              // N -> T
-key <AB07> { [ h, H ] };              // M -> H
-key <AB08> { [ b, B ] };              // , -> B (Shift+, -> b)
-key <AB09> { [ period, period ] };    // . -> .
-key <AB10> { [ slash, slash ] };      // / -> /
+    key <AB01> { [ less, slash ] };       // Z -> < /
+    key <AB02> { [ greater, question ] }; // X -> > ?
+    key <AB03> { [ c, C ] };              // C
+    key <AB04> { [ m, M ] };              // V -> M
+    key <AB05> { [ i, I ] };              // B -> I
+    key <AB06> { [ t, T ] };              // N -> T
+    key <AB07> { [ h, H ] };              // M -> H
+    key <AB08> { [ b, B ] };              // , -> B (Shift+, -> b)
+    key <AB09> { [ q, Q ] };              // . -> .
+    key <AB10> { [ period, comma ] };     // / -> /
 
 
 };
